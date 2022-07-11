@@ -1,45 +1,21 @@
 
 {
-    "name": "VcUserBot",
-    "description": "Telegram UserBot for Video Chat.",
+    "name": "botART",
+    "description": "powerfull rat support 12 too.",
     "logo": "https://telegra.ph/file/5e449920b06c24d39cc5f.jpg",
     "keywords": [
-        "Telegram",
-        "MusicPlayer",
-        "VideoPlayer"
+        "akg",
+        "rat",
+        "androrat"
     ],
-    "repository": "https://github.com/TeamOctave/VcUserBot",
-    "env": {
-        "SESSION": {
-            "description": "Pyrogram String Session",
-            "required": false
-        },
-        "API_ID": {
-            "description": "Your api id from my.telegram.org/apps",
-            "required": false
-        },
-        "HNDLR": {
-            "description": "Set handler",
-            "required": false,
-            "value": ""
-        },
-        "API_HASH": {
-            "description": "Your api hash from my.telegram.org/apps",
-            "required": false
-        },
-        "SUDO_USERS": {
-            "description": "User ID list user counts as admin everywhere(separator using space)",
-            "required": false
-        }
-    },
+    "repository": "https://github.com/AKGV1/botart",
+   
     "addons": [],
     "buildpacks": [
         {
-            "url": "heroku/python"
+            "url": "heroku/php"
         },
-        {
-            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-        }
+
     ],
     "formation": {
         "worker": {
