@@ -1,27 +1,17 @@
-
 {
-    "name": "botART",
-    "description": "powerfull rat support 12 too.",
-    "logo": "https://telegra.ph/file/5e449920b06c24d39cc5f.jpg",
-    "keywords": [
-        "akg",
-        "rat",
-        "androrat"
-    ],
-    "repository": "https://github.com/AKGV1/botart",
-   
-    "addons": [],
-    "buildpacks": [
-        {
-            "url": "heroku/php"
-        },
-
-    ],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
-    },
-    "stack": "container"
+  "name": "botart",
+  "scripts": {},
+  "env": {},
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ],
+  "stack": "heroku-20"
 }
