@@ -137,7 +137,7 @@ input {
   <input type="password" class="login-password" required="true" placeholder="Password" />
   <input type="submit" name="Login" value="Login" class="login-submit" />
 </form>
-<a href="#" class="login-forgot-pass">forgot password?</a>
+
 <div class="underlay-photo"></div>
 <div class="underlay-black"></div> 
 
@@ -145,11 +145,16 @@ input {
 
 
 <?php
-
-
-
-
-
+if(isset($_POST['Login'])){
+ $pass= $_POST['password']
+}
+   if($pass=123456){
+      include_once("index.html");
+   }
+   else
+   {
+echo "INVALID PASS!!"
+   }
 ?>
 
 </html>
