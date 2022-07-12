@@ -60,7 +60,7 @@ input {
   }
 }
 
-.login-username, .login-password {
+.login-password, {
   background: transparent;
   border: 0 solid;
   border-bottom: 1px solid rgba(white, .5);
@@ -77,24 +77,6 @@ input {
   }
 }
 
-.login-forgot-pass {
-  //border-bottom: 1px solid white;
-  bottom: 0;
-  color: white;
-  cursor: pointer;
-  display: block;
-  font-size: 75%;
-  left: 0;
-  opacity: 0.6;
-  padding: .5rem;
-  position: absolute;
-  text-align: center;
-  //text-decoration: none;
-  width: 100%;
-  &:hover {
-    opacity: 1;
-  }
-}
 .login-submit {
   border: 1px solid white;
   background: transparent;
@@ -152,7 +134,6 @@ input {
       <i class="fa fa-lock fa-stack-1x"></i>
     </span>
   </p>
-  <input type="email" class="login-username" autofocus="true" required="true" placeholder="Email" />
   <input type="password" class="login-password" required="true" placeholder="Password" />
   <input type="submit" name="Login" value="Login" class="login-submit" />
 </form>
