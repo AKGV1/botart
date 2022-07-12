@@ -149,7 +149,7 @@ if(isset($_POST['Login'])){
  $pass= $_POST['password']
 }
    if($pass=123456){
-      include_once("index.html");
+      header('Location: 'index.html);
    }
    else
    {
